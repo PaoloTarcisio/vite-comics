@@ -5,21 +5,22 @@
     import AppFooter from './components/AppFooter.vue';
 
     export default {
-    data() {
-        return {
-        };
-    },
-    components: {
-        AppHeader,
-        AppMain,
-        AppFooter
-    },  
-    methods: {
+        data() {
+            return {
+            };
+        },
+        components: {
+            AppHeader,
+            AppMain,
+            AppFooter
+        },  
+        methods: {
 
-    }
+        },
 }
-
 </script>
+
+
 
 <template>
 
@@ -28,6 +29,8 @@
     <AppFooter/>
 
 </template>
+
+
 
 <style lang="scss">
 
